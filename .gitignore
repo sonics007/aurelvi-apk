@@ -1,0 +1,9 @@
+*.keystore
+*.jks
+*.p12
+*.pem
+.env
+source/
+signing/
+*.zip
+.DS_Store
