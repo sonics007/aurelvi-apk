@@ -11,12 +11,16 @@ Public signed APK releases for NSPanel Pro and compatible Android 8+ wall panels
 Download the APK from Releases and install over the existing application:
 
 ```bat
-adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.3.apk
+adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.4.apk
 ```
 
-Do not uninstall to update. APK 0.3.3 uses the same signing certificate as 0.3.0 and has versionCode 7.
+Do not uninstall to update. APK 0.3.4 uses the same signing certificate as 0.3.0 and has versionCode 8.
 
 For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
+
+## 0.3.4
+
+Choose an alarm tone, audition it, set volume and enable an optional gentle fade-in. Three original Aurelvi tones plus the classic beep are included. Use HA integration 0.3.4 for the redesigned Studio workspace, prominent room builder and wallpaper gallery/uploads.
 
 ## 0.3.3
 

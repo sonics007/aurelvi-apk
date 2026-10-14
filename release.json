@@ -1,8 +1,8 @@
 {
-  "version": "0.3.3",
-  "versionCode": 7,
+  "version": "0.3.4",
+  "versionCode": 8,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.3.apk",
-  "sha256": "5af6a6c2d10286dd3e52136a732bb5199361507bc2e76aedb87f40d7a669bf87",
-  "notes": "Fix automatic relaunch after app updates: Aurelvi now opens after its package is replaced even if it is not the default Home app. Boot behavior still respects the chosen Home app. Same signing certificate as 0.3.2. HA integration 0.3.2 remains compatible. Live NSPanel Pro update behavior requires device verification."
+  "file": "Aurelvi-0.3.4.apk",
+  "sha256": "d326e56dc357cb219c0de2fb22f4ff50bf481a9413e778ab540345fb85c0f6cc",
+  "notes": "Alarm tones: original Morning Birds, Peaceful Dawn, Soft Chimes and Classic Beep. Adds preview/stop, tone volume and optional 30-second fade-in. Adds wallpaper rendering for HA Studio 0.3.4. Includes automatic relaunch after updates. Use HA integration 0.3.4 for the redesigned editor and visible room builder. No Apple audio is bundled. Native playback requires panel verification."
 }
