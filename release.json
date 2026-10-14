@@ -1,8 +1,8 @@
 {
-  "version": "0.3.4",
-  "versionCode": 8,
+  "version": "0.3.7",
+  "versionCode": 9,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.4.apk",
-  "sha256": "d326e56dc357cb219c0de2fb22f4ff50bf481a9413e778ab540345fb85c0f6cc",
-  "notes": "Alarm tones: original Morning Birds, Peaceful Dawn, Soft Chimes and Classic Beep. Adds preview/stop, tone volume and optional 30-second fade-in. Adds wallpaper rendering for HA Studio 0.3.4. Includes automatic relaunch after updates. Use HA integration 0.3.4 for the redesigned editor and visible room builder. No Apple audio is bundled. Native playback requires panel verification."
+  "file": "Aurelvi-0.3.7.apk",
+  "sha256": "232d05e051bef02819af4a6e696223d8a82f19ae10c39dbba141249e92a408f2",
+  "notes": "80 original skins including Art Deco, Hi-Fi rotary controls with real fan-output meter, Ceramic, Japandi, Glass and Neon. Native signed licence activation checks panel ID, RSA signature, expiry and product. All skins remain open preview; live sales are disabled. Use HA 0.3.7 for full room inventories, paired light/switch plates, room rebuild/removal and HA licence delivery. Same signing certificate and preserved update relaunch."
 }

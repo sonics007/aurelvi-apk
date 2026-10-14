@@ -11,12 +11,18 @@ Public signed APK releases for NSPanel Pro and compatible Android 8+ wall panels
 Download the APK from Releases and install over the existing application:
 
 ```bat
-adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.4.apk
+adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.7.apk
 ```
 
-Do not uninstall to update. APK 0.3.4 uses the same signing certificate as 0.3.0 and has versionCode 8.
+Do not uninstall to update. APK 0.3.7 uses the same signing certificate as previous releases and has versionCode 9.
 
 For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
+
+## 0.3.7
+
+80 original skins with six new material families: Art Deco, Hi-Fi, Ceramic, Japandi, Glass and Neon. The Hi-Fi meter reflects confirmed fan output, not audio levels. Settings includes native RSA-SHA256 licence application. No private issuer key is in the APK. All skins are currently open preview and checkout is disabled.
+
+Use HA 0.3.7 for complete selectable room inventories, paired control plates and room rebuild/removal. Visit [Aurelvi](https://sonics007.github.io/aurelvi-ha/) for the updated dark/light website and design gallery.
 
 ## 0.3.4
 
