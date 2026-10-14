@@ -11,12 +11,16 @@ Public signed APK releases for NSPanel Pro and compatible Android 8+ wall panels
 Download the APK from Releases and install over the existing application:
 
 ```bat
-adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.2.apk
+adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.3.apk
 ```
 
-Do not uninstall to update. APK 0.3.2 uses the same signing certificate as 0.3.0 and has versionCode 6.
+Do not uninstall to update. APK 0.3.3 uses the same signing certificate as 0.3.0 and has versionCode 7.
 
 For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
+
+## 0.3.3
+
+After installation updates, Aurelvi automatically returns to the foreground even when it is not the default Home app. The Home Assistant integration remains at 0.3.2.
 
 ## 0.3.2
 

@@ -1,8 +1,8 @@
 {
-  "version": "0.3.2",
-  "versionCode": 6,
+  "version": "0.3.3",
+  "versionCode": 7,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.2.apk",
-  "sha256": "4ec7ea37f417894dd2c41c080eff13066182c04adc67a08c8b9089a8e29a5313",
-  "notes": "Dedicated clock alarm dialog; public-settings import to HA; 32 original skins; cover controls; clock customization; optional Android TTS. Use with Aurelvi HA 0.3.2. Install with adb install -r to retain settings. Native TTS and sensors require device verification."
+  "file": "Aurelvi-0.3.3.apk",
+  "sha256": "5af6a6c2d10286dd3e52136a732bb5199361507bc2e76aedb87f40d7a669bf87",
+  "notes": "Fix automatic relaunch after app updates: Aurelvi now opens after its package is replaced even if it is not the default Home app. Boot behavior still respects the chosen Home app. Same signing certificate as 0.3.2. HA integration 0.3.2 remains compatible. Live NSPanel Pro update behavior requires device verification."
 }
