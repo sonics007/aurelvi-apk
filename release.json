@@ -1,7 +1,8 @@
 {
-  "version": "0.3.0",
-  "versionCode": 5,
+  "version": "0.3.2",
+  "versionCode": 6,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.0.apk",
-  "sha256": "3d00eb98a43c8609779e731ed7348bf9d5cb667e9ddd6482a870cb067cd9e8f1"
+  "file": "Aurelvi-0.3.2.apk",
+  "sha256": "4ec7ea37f417894dd2c41c080eff13066182c04adc67a08c8b9089a8e29a5313",
+  "notes": "Dedicated clock alarm dialog; public-settings import to HA; 32 original skins; cover controls; clock customization; optional Android TTS. Use with Aurelvi HA 0.3.2. Install with adb install -r to retain settings. Native TTS and sensors require device verification."
 }

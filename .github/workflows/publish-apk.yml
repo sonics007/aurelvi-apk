@@ -44,7 +44,7 @@ jobs:
               core.notice(`Release ${tag} already published with matching APK`);
               return;
             }
-            const body = `Aurelvi Android app ${meta.version}\n\nPackage: ${meta.package}\nversionCode: ${meta.versionCode}\nMinimum Android: 8.0\n\nInitial community build. Test on your panel before relying on it.\n\nInstall with adb install -r. Keep the existing signing certificate. Android confirmation is required for in-app updates.\n\nSHA-256: ${digest}\n\nAndroid source and signing key are not included in this repository.`;
+            const body = `Aurelvi Android app ${meta.version}\n\nPackage: ${meta.package}\nversionCode: ${meta.versionCode}\nMinimum Android: 8.0\n\n${meta.notes || 'Community build. Test on your panel before relying on it.'}\n\nInstall with adb install -r. Keep the existing signing certificate. Android confirmation is required for in-app updates.\n\nSHA-256: ${digest}\n\nAndroid source and signing key are not included in this repository.`;
             const release = existing || (await github.rest.repos.createRelease({owner, repo, tag_name: tag, target_commitish: context.sha, name: `Aurelvi ${meta.version}`, body, draft: true, prerelease: false})).data;
             for (const asset of release.assets || []) {
               if ([meta.file, 'SHA256SUMS.txt'].includes(asset.name)) {
