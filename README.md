@@ -11,12 +11,19 @@ Public signed APK releases for NSPanel Pro and compatible Android 8+ wall panels
 Download the APK from Releases and install over the existing application:
 
 ```bat
-adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.7.apk
+adb.exe -s PANEL_IP:5555 install -r Aurelvi-0.3.11.apk
 ```
 
-Do not uninstall to update. APK 0.3.7 uses the same signing certificate as previous releases and has versionCode 9.
+Do not uninstall to update. APK 0.3.11 uses the same signing certificate as previous releases and has versionCode 10.
 
 For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
+
+
+## 0.3.11
+
+Eight photorealistic digital material textures, enlarged website previews, a local language selector and 26 European core UI packs. Additional-language advanced descriptions fall back to English. The audio-only SIP/WebRTC intercom preview supports up to 12 contacts, one selected call at a time, explicit incoming acceptance, mute and hangup. It requires a compatible SIP/WSS service and phone app; locked-screen ringing requires provider push support. Real phone audio and push still need device verification. Obsolete external-project compatibility has been removed.
+
+Use HA integration 0.3.11 for the matching editor previews and updated website.
 
 ## 0.3.7
 

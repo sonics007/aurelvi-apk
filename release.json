@@ -1,8 +1,9 @@
 {
-  "version": "0.3.7",
-  "versionCode": 9,
+  "version": "0.3.11",
+  "versionCode": 10,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.7.apk",
-  "sha256": "232d05e051bef02819af4a6e696223d8a82f19ae10c39dbba141249e92a408f2",
-  "notes": "80 original skins including Art Deco, Hi-Fi rotary controls with real fan-output meter, Ceramic, Japandi, Glass and Neon. Native signed licence activation checks panel ID, RSA signature, expiry and product. All skins remain open preview; live sales are disabled. Use HA 0.3.7 for full room inventories, paired light/switch plates, room rebuild/removal and HA licence delivery. Same signing certificate and preserved update relaunch."
+  "file": "Aurelvi-0.3.11.apk",
+  "sha256": "bb58bb446eb23b577b737b30fe6297a0f5d152a0c0c2930da566c21dd6222654",
+  "notes": "Eight realistic digital materials, 26 European core UI packs and local language selection. SIP/WebRTC audio intercom preview with up to 12 individually selected contacts, one call at a time, mute and explicit incoming acceptance. Requires a compatible SIP/WSS provider and mobile app; locked-screen ringing needs provider push support and real-device verification. Advanced untranslated copy falls back to English. Removes obsolete external-project compatibility. Update installation preserves app settings.",
+  "sourceCommit": "ac43bbf8900831581ecf28d17a4eea8d66c97e63"
 }
