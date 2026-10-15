@@ -1,9 +1,9 @@
 {
-  "version": "0.3.11",
-  "versionCode": 10,
+  "version": "0.3.12",
+  "versionCode": 11,
   "package": "sk.openpanel.nspanel",
-  "file": "Aurelvi-0.3.11.apk",
-  "sha256": "bb58bb446eb23b577b737b30fe6297a0f5d152a0c0c2930da566c21dd6222654",
-  "notes": "Eight realistic digital materials, 26 European core UI packs and local language selection. SIP/WebRTC audio intercom preview with up to 12 individually selected contacts, one call at a time, mute and explicit incoming acceptance. Requires a compatible SIP/WSS provider and mobile app; locked-screen ringing needs provider push support and real-device verification. Advanced untranslated copy falls back to English. Removes obsolete external-project compatibility. Update installation preserves app settings.",
-  "sourceCommit": "ac43bbf8900831581ecf28d17a4eea8d66c97e63"
+  "file": "Aurelvi-0.3.12.apk",
+  "sha256": "0652a77c40e8153712d0ddc4d5b6029c71bfc62672a459db7ae5f549b1ad1352",
+  "notes": "Includes all 0.3.11 features and fixes intercom contacts on older Android WebView engines. Eight realistic digital material finishes and 26 European core UI packs; advanced copy uses English fallback. SIP/WebRTC audio intercom preview: up to 12 individually selected contacts, one active call, mute and explicit incoming acceptance. Requires a compatible SIP/WSS provider and phone app; locked-screen ringing requires provider push support and real-device verification. Update installation preserves app settings.",
+  "sourceCommit": "ecd4b842a0c2002dd2fdca2519c44d62d33264c5"
 }
