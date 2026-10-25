@@ -18,6 +18,8 @@ Do not uninstall to update. APK 0.3.12 uses the same signing certificate as prev
 
 For in-app updates use repository `sonics007/aurelvi-apk` and leave the optional asset name empty. Android installation confirmation is required.
 
+Only the current APK is kept in `dist/`. Every version, including older ones, is available under [Releases](https://github.com/sonics007/aurelvi-apk/releases). `SHA256SUMS.txt` lists the SHA-256 checksum of every published APK; verify a download with `sha256sum -c SHA256SUMS.txt --ignore-missing`.
+
 
 ## 0.3.12
 
