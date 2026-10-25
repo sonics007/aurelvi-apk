@@ -32,6 +32,10 @@ jobs:
             if (digest !== meta.sha256 || apk.length < 10000 || apk.length > 100 * 1024 * 1024 || apk.readUInt32LE(0) !== 0x04034b50) {
               throw new Error('APK integrity check failed');
             }
+            const sums = fs.readFileSync('SHA256SUMS.txt', 'utf8').split('\n').map(l => l.trim()).filter(Boolean);
+            if (!sums.includes(`${digest}  ${meta.file}`)) {
+              throw new Error(`SHA256SUMS.txt must contain "${digest}  ${meta.file}"`);
+            }
             const {owner, repo} = context.repo;
             const tag = `v${meta.version}`;
             const releases = await github.paginate(github.rest.repos.listReleases, {owner, repo, per_page: 100});
